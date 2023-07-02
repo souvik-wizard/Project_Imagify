@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./imageUpload.js" defer></script>
+    <title>Home</title>
+</head>
+<body>
+    <p>Hello user</p>
+    <div>
+        <form id="upload-image" action="">
+            <input id="title" data-user-id="<%=user%>" type="text">
+            <input id="file" accept="image/png" type="file">
+            <input type="submit">
+        </form>
+    </div>
+    <a class="btn btn-light btn-lg" href="/logout" role="button">Log Out</a>
+</body>
+</html>
